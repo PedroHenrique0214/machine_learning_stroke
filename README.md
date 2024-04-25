@@ -33,3 +33,12 @@ bmi: Índece de massa corporal
 smoking_status: 1 - fumante, 0 - nunca fumou
 
 stroke: Paciente teve um avc (1), ou não (0)
+
+
+# - CONCLUSÃO
+
+Identifiquei um fator chave que contribui para o desempenho excepcional dos modelos de árvore de decisão em nosso conjunto de dados. A variável 'avg_glucose_level' demonstra uma forte correlação com esse tipo de modelo. Com base nisso, podemos considerar o nível de glicose no sangue como um indicador significativo da probabilidade de ocorrência de AVC em um indivíduo.
+
+Além disso, várias outras informações revelaram-se relevantes para orientar profissionais de saúde sobre os cuidados necessários na detecção de AVC. Fatores como hipertensão, histórico de doenças cardíacas e índice de massa corporal do paciente demonstraram ter uma influência substancial nos resultados de nosso conjunto de dados. Esses insights são cruciais para garantir uma abordagem cuidadosa ao lidar com essa condição médica.
+
+Nossas análises revelaram resultados notáveis em termos de acurácia e recall, este último sendo de especial importância. Após uma minuciosa análise de nosso conjunto de dados e o devido tratamento dos dados, conduzimos testes com diversos modelos, incluindo a padronização e normalização dos dados para comparação. Destacamos uma relação particularmente forte entre nossos dados e modelos baseados em árvore de decisão, especialmente quando otimizados com a hiperparametrização do modelo para alcançar os melhores resultados.
